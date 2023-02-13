@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import ImageSearch from "./ImageSearch";
 import reportWebVitals from './reportWebVitals';
+import WeatherApp from './WeatherApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ImageSearch />
+    <WeatherApp />
   </React.StrictMode>
 );
 
